@@ -1,0 +1,202 @@
+.institutional{
+    background-color: rgb(24, 26, 32);
+}
+.presentation-institutional{
+    background-image: url(../images/institutional/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.presentation-institutional .d-flex img{
+    width: 20px;
+    height: 20px;
+}
+.presentation-institutional h4 code{
+    color: #ebc631;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.presentation-institutional h4{
+    font-size: 16px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif,
+}
+.presentation-institutional h1{
+    font-size: 45px;
+}
+.personalidades li i{
+    color: #ebc631;
+    list-style: none;
+}
+.lists span{
+    color: rgb(183, 189, 198);
+    font-size: 14px;
+}
+.lists li{
+    list-style: none;
+}
+.beneficios li i{
+    font-size: 20px;
+   color: #02c076;
+}
+.card-transparent-institutional{
+    background-color: #0B0E11;
+    min-height: 200px;
+}
+.programs .card-transparent{
+    border: 1px solid rgb(71, 77, 87);
+}
+.programs span{
+    color: rgb(183, 189, 198);
+    font-size: 14px;
+}
+.programs .card-transparent span{
+    color: rgb(183, 189, 198);
+    font-size: 13px;
+}
+.contact h3{
+    font-size: 15px;
+    color: #848E9C;
+}
+.contact h2{
+    font-size: 30px
+}
+.iconos-contact span i{
+    font-size: 17px;
+    color: rgb(183, 189, 198);
+    padding: 10px;
+    background-color: rgba(183, 189, 198, 0.181);
+}
+.iconos-contact h5{
+    font-size: 14px;
+}
+.iconos-contact span{
+    font-size: 12px;
+    color: #848E9C;
+}
+.iconos-contact .form-control{
+    background-color: #181A20;
+    border: #848E9C 1px solid;
+}
+.iconos-contact .form-control:hover{
+    border: 1px solid #F0B90B;
+}
+.iconos-contact .form-control:focus{
+    border: 1px solid #F0B90B;
+}
+.presentation-solutions{
+    background-image: url(../images/solutions/otc-landing-header-bg-2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.presentation-solutions span{
+    color: #848E9C;
+    font-size: 14px;
+}
+.process{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color: #181A20;
+}
+.process span{
+    font-size: 14px;
+    color: #848E9C;
+}
+.process .card-transparent-institutional span i{
+    font-size: 35px;
+}
+.process .card-transparent-institutional h5{
+    font-size: 17px;
+}
+.process h4{
+    font-size: 16px;
+}
+.process .wallet .col-2 img{
+    width: 40px;
+}
+.carousel-solutions{
+    background-image: url(../images/solutions/otc-landing-products.png);
+    background-position: center;
+}
+.carousel-item .row{
+    min-height: 500px;
+}
+.settlement h4{
+    color: #848E9C;
+    font-size: 20px;
+}
+.contact span{
+    color: #848E9C;
+    font-size: 14px;
+}
+.solutions .contact h3{
+    font-size: 20px;
+}
+.solutions .contact .link-grey-yellow{
+    color: #ebc631;
+}
+
+/*SERVICES*/
+.services h1{
+    font-weight: 500;
+    font-size: 50px;
+    border-bottom: 1px solid #ebc631;
+}
+.card-service{
+    border: 1px solid #848E9C;
+    height: 100%;
+}
+.card-service:hover{
+    background-color: #787d8448;
+}
+.card-service-head{
+    background-color: #848e9c15;
+}
+.card-service h2{
+    color: #ebc631;
+    font-size: 20px;
+}
+.card-service h4{
+    color: #ebc631;
+    font-size: 16px;
+}
+.card-service p,span{
+    color: #bec2c7;
+    font-size: 13px;
+}
+.card-service-body li{
+    list-style: circle;
+    color: #ebc631;
+}
+.card-service-body h3{
+    color: #0bffa2;
+    font-size: 15px;
+    font-weight: 400;
+}
+.services .tabla-caracteristicas{
+    overflow: auto;
+    border: 1px solid #848E9C;
+}
+.services .tabla-caracteristicas:hover{
+    background-color: #787d8448;
+}
+.services .table{
+    color: #bec2c7;
+    font-size: 14px;
+}
+.services .table td,th{
+    min-width: 200px;
+    text-align: center;
+}
+.services tr:hover{
+    background-color: rgba(164, 164, 164, 0.133);
+}
+.services tr:hover td{
+    color: #ebc631;
+}
+
+/* SIMULATER */
+.simulater .cryptos{
+    overflow: auto;
+}

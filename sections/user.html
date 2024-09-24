@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title data-shuvi-head="true">Usuario</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="icon" href="../favicon.ico" sizes="192x192">
+    <link rel="stylesheet" href="../customs.css">
+    <link rel="stylesheet" href="../styles/sections.css">
+    <link rel="stylesheet" href="./cart.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https:/00/f0000000onts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg">   
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">                        
+                    <img src="../images/logo.png" alt="">
+                    BINANCE
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="../sections/institutional.html">Institutional</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="../sections/solutions.html">Soluciones</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="../sections/services.html">Servicios</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Finanzas</a>
+                            <ul class="dropdown-menu border-0 p-4">
+                                <li>
+                                    <a class="rounded-3 dropdown-item" href="#">
+                                        <div class="d-flex my-3 content-nav">
+                                            <div class="content-nav-head"><img src="../images/iconos/unlock.svg" alt=""></div>
+                                            <div class="px-3 content-nav-body">
+                                                <h6 class="my-0">Binance Card</h6>
+                                                <span>Convierte tus criptos y realiza pagos alrededor del mundo</span>                                               
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="rounded-3 dropdown-item" href="#">
+                                        <div class="d-flex my-3 content-nav">
+                                            <div class="content-nav-head"><img  src="../images/iconos/access-control.svg" alt=""></div>
+                                            <div class="px-3 content-nav-body">
+                                                <h6 class="my-0">Prestamos</h6> 
+                                                <span>Recibe un prestamo instantaneo garantizado por criptoactivos</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="rounded-3 dropdown-item" href="#">
+                                        <div class="d-flex my-3 content-nav">
+                                            <div class="content-nav-head"><img src="../images/iconos/blog.svg" alt=""></div>
+                                            <div class="px-3 content-nav-body">
+                                                <h6 class="my-0">Binance Pay</h6>
+                                                <span>Envia y gasta criptomonedas sin comisiones</span>                                                     
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="rounded-3 dropdown-item">
+                                        <div class="d-flex my-3 content-nav">
+                                            <div class="content-nav-head"><img src="../images/iconos/usuario.svg" alt=""></div>
+                                            <div class="px-3 content-nav-body">
+                                                <h6 class="my-0">Binance Gift Card</h6>
+                                                <span>Tarjeta regalo de criptomonedas personalizable</span>                                                    
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="./converter.html">Conversor</a></li>
+                    </ul>
+                    <a class="nav-link active cart" aria-current="page" href="../cart/cart.html"><i class='bx bx-cart'></i></a>
+                    <a class="nav-link link-grey-yellow" aria-current="page" href="./user.html">Iniciar sesion</a>
+                    <a href="" class="rounded-3 px-2 py-1 link-yellow">Registrarse</a>
+                </div>
+            </div>
+        </nav>
+        <div class="p-2 text-lg-center header-bottom">
+            <span>¡Registrate ahora y disfruta de recompensas de bienvenida de hasta 100 USD! (para usuarios verificados)</span>            
+        </div>
+    </header>
+    
+    <main>
+
+        <section class="py-5 my-5">
+            <div class="container">
+                <div class="d-flex justify-content-center align-items-center">
+                    <a href="" onclick="newAccount()" class="rounded-3 link-yellow">Comenzar ingreso sesion</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 contact">
+            <div class="container">
+                <div class="row card-transparent-institutional p-lg-5 p-2 py-5 rounded-3 m-1 m-lg-0">
+                    <div class="col-12 col-md-5 py-3">
+                        <h3 class="mb-0">Cuentanos que necesitas</h3>
+                        <h2>Contactanos</h2>
+                        <div class="d-flex iconos-contact py-2">
+                            <span class="me-2"><i class='bx rounded-5 bx-message-dots'></i></span>
+                            <div class="d-flex flex-column">
+                                <h5 class="mb-0">Chat</h5>
+                                <span>Habla con un agente en vivo</span>
+                            </div>
+                        </div>
+                        <div class="d-flex iconos-contact py-2">
+                            <span class="me-2"><i class='bx rounded-5 bx-message-dots'></i></span>
+                            <div class="d-flex flex-column">
+                            <h5 class="mb-0">Comentarios</h5>
+                            <span>Comparte tu opinion</span>
+                            </div>
+                        </div>
+                        <div class="d-flex iconos-contact py-2">
+                            <span class="me-2"><i class='bx rounded-5 bx-file'></i></span>
+                            <div class="d-flex flex-column">
+                                <h5 class="mb-0">Preguntas frecuentes</h5>
+                                <span>Explora mas en Binance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7 py-3 iconos-contact introduction-home">
+                        <div class="input-group flex-nowrap">
+                            <input type="text" class="me-2 rounded-2 form-control" placeholder="Nombre" aria-label="Username" aria-describedby="addon-wrapping">
+                            <input type="text" class="rounded-2 form-control" placeholder="Email/Telegram" aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                        <div class="input-group flex-nowrap">
+                            <textarea class="my-3 form-control" placeholder="Mensaje" aria-label="With textarea"></textarea>
+                        </div>
+                        <a href="" class="rounded-2 d-flex justify-content-center link-yellow">Enviar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+  
+    <footer class="py-3">
+        <div class="container">
+            <div class="row d-none d-md-flex">
+                <div class="col-6 col-md-4 col-xl-2 my-3 d-flex flex-column">
+                    <h5>Sobre Nosotros</h5>
+                    <a href="" class="mb-2 link-grey-yellow">Acerca</a>
+                    <a href="" class="mb-2 link-grey-yellow">Carreras</a>
+                    <a href="" class="mb-2 link-grey-yellow">Contactos para negocios</a>
+                    <a href="" class="mb-2 link-grey-yellow">Comunidad</a>
+                    <a href="" class="mb-2 link-grey-yellow">Blog de Binance</a>
+                    <a href="" class="mb-2 link-grey-yellow">Terminos</a>
+                    <a href="" class="mb-2 link-grey-yellow">Privacidad</a>
+                    <a href="" class="mb-2 link-grey-yellow">Advertencia de riesgo</a>
+                    <a href="" class="mb-2 link-grey-yellow">Anuncios</a>
+                    <a href="" class="mb-2 link-grey-yellow">Noticias</a>
+                    <a href="" class="mb-2 link-grey-yellow">Notices</a>
+                    <a href="" class="mb-2 link-grey-yellow">Preferencias de cookies</a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 my-3 d-flex flex-column">
+                    <h5>Productos</h5>
+                    <a href="" class="mb-2 link-grey-yellow">Exchange</a>
+                    <a href="" class="mb-2 link-grey-yellow">Academy</a>
+                    <a href="" class="mb-2 link-grey-yellow">Binance en vivo</a>
+                    <a href="" class="mb-2 link-grey-yellow">Charity</a>
+                    <a href="" class="mb-2 link-grey-yellow">Card</a>
+                    <a href="" class="mb-2 link-grey-yellow">Labs</a>
+                    <a href="" class="mb-2 link-grey-yellow">Launchpad</a>
+                    <a href="" class="mb-2 link-grey-yellow">Research</a>
+                    <a href="" class="mb-2 link-grey-yellow">Trust Wallet</a>
+                    <a href="" class="mb-2 link-grey-yellow">NFT</a>
+                    <a href="" class="mb-2 link-grey-yellow">Binance Pay</a>
+                    <a href="" class="mb-2 link-grey-yellow">Binance Gift Card</a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 my-3 d-flex flex-column">
+                    <h5>Servicios</h5>
+                    <a href="" class="mb-2 link-grey-yellow">Descargar</a>
+                    <a href="" class="mb-2 link-grey-yellow">Aplicacion de escritorio</a>
+                    <a href="" class="mb-2 link-grey-yellow">Comprar Cripto</a>
+                    <a href="" class="mb-2 link-grey-yellow">Servicios institucionales y VIP</a>
+                    <a href="" class="mb-2 link-grey-yellow">Trading OTC</a>
+                    <a href="" class="mb-2 link-grey-yellow">Programa de referidos</a>
+                    <a href="" class="mb-2 link-grey-yellow">Programa de afiliados</a>
+                    <a href="" class="mb-2 link-grey-yellow">BNB</a>
+                    <a href="" class="mb-2 link-grey-yellow">Solicitud de listado</a>
+                    <a href="" class="mb-2 link-grey-yellow">Solicitud para comerciante P2P</a>
+                    <a href="" class="mb-2 link-grey-yellow">Solicitud para comerciante P2PPro</a>
+                    <a href="" class="mb-2 link-grey-yellow">Datos historicos del mercado</a>
+                    <a href="" class="mb-2 link-grey-yellow">Proof of Asset</a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 my-3 d-flex flex-column">
+                    <h5>Soporte</h5>
+                    <a href="" class="mb-2 link-grey-yellow">Danos tu opinion</a>
+                    <a href="" class="mb-2 link-grey-yellow">Centro de Soporte</a>
+                    <a href="" class="mb-2 link-grey-yellow">Enviar una solicitud</a>
+                    <a href="" class="mb-2 link-grey-yellow">Comisiones</a>
+                    <a href="" class="mb-2 link-grey-yellow">Reglas de Trading</a>
+                    <a href="" class="mb-2 link-grey-yellow">Verificacion de Binance</a>
+                    <a href="" class="mb-2 link-grey-yellow">Solicitudes de autoridades</a>
+                    <a href="" class="mb-2 link-grey-yellow">Binance Legal (Ordenes judiciales)</a>
+                    <a href="" class="mb-2 link-grey-yellow">Portal de airdrop de Binance</a>
+                    <a href="" class="mb-2 link-grey-yellow">The Merge de Ethereum</a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 my-3 d-flex flex-column">
+                    <h5>Conocer mas</h5>
+                    <a href="" class="mb-2 link-grey-yellow">Aprende y gana</a>
+                    <a href="" class="mb-2 link-grey-yellow">Explorar precios de criptomonedas</a>
+                    <a href="" class="mb-2 link-grey-yellow">Comprar BNB</a>
+                    <a href="" class="mb-2 link-grey-yellow">Comprar BUSD</a>
+                    <a href="" class="mb-2 link-grey-yellow">Comprar Bitcoin</a>
+                    <a href="" class="mb-2 link-grey-yellow">Comprar Ethereum</a>
+                    <a href="" class="mb-2 link-grey-yellow">Comprar Litecoin</a>
+                    <a href="" class="mb-2 link-grey-yellow">Comprar Ripple</a>
+                    <a href="" class="mb-2 link-grey-yellow">Comprar Bitcoin Cash</a>
+                    <a href="" class="mb-2 link-grey-yellow">Comprar Dogecoin</a>
+                    <a href="" class="mb-2 link-grey-yellow">Comprar DeFi</a>
+                    <a href="" class="mb-2 link-grey-yellow">Comprar SHIB</a>
+                    <a href="" class="mb-2 link-grey-yellow">Comprar altcoins para hacer trading</a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 my-3">
+                    <h5>Community</h5>
+                    <a href="" class="link-grey-yellow"><i class='bx bxl-discord-alt'></i></a>
+                    <a href="" class="link-grey-yellow"><i class='bx bxl-telegram'></i></a>
+                    <a href="" class="link-grey-yellow"><i class='bx bxl-tiktok'></i></a>
+                    <a href="" class="link-grey-yellow"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="" class="link-grey-yellow"><i class='bx bxl-twitter'></i></a>
+                    <a href="" class="link-grey-yellow"><i class='bx bxl-reddit'></i></a>
+                    <a href="" class="link-grey-yellow"><i class='bx bxl-instagram'></i></a>
+                    <a href="" class="link-grey-yellow"><i class='bx bxl-mastodon'></i></a>
+                    <a href="" class="link-grey-yellow"><i class='bx bxl-vk'></i></a>
+                    <a href="" class="link-grey-yellow"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+            <div class="accordion d-block d-md-none" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        <h5>Sobre Nosotros</h5>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body py-0">
+                        <div class="col-6 col-md-4 col-xl-2 my-3 d-flex flex-column">
+                            <a href="" class="mb-3 link-grey-yellow">Acerca</a>
+                            <a href="" class="mb-3 link-grey-yellow">Carreras</a>
+                            <a href="" class="mb-3 link-grey-yellow">Contactos para negocios</a>
+                            <a href="" class="mb-3 link-grey-yellow">Comunidad</a>
+                            <a href="" class="mb-3 link-grey-yellow">Blog de Binance</a>
+                            <a href="" class="mb-3 link-grey-yellow">Terminos</a>
+                            <a href="" class="mb-3 link-grey-yellow">Privacidad</a>
+                            <a href="" class="mb-3 link-grey-yellow">Advertencia de riesgo</a>
+                            <a href="" class="mb-3 link-grey-yellow">Anuncios</a>
+                            <a href="" class="mb-3 link-grey-yellow">Noticias</a>
+                            <a href="" class="mb-3 link-grey-yellow">Notices</a>
+                            <a href="" class="mb-3 link-grey-yellow">Preferencias de cookies</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        <h5>Productos</h5>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body py-0">
+                        <div class="col-6 col-md-4 col-xl-2 my-3 d-flex flex-column">
+                            <a href="" class="mb-3 link-grey-yellow">Exchange</a>
+                            <a href="" class="mb-3 link-grey-yellow">Academy</a>
+                            <a href="" class="mb-3 link-grey-yellow">Binance en vivo</a>
+                            <a href="" class="mb-3 link-grey-yellow">Charity</a>
+                            <a href="" class="mb-3 link-grey-yellow">Card</a>
+                            <a href="" class="mb-3 link-grey-yellow">Labs</a>
+                            <a href="" class="mb-3 link-grey-yellow">Launchpad</a>
+                            <a href="" class="mb-3 link-grey-yellow">Research</a>
+                            <a href="" class="mb-3 link-grey-yellow">Trust Wallet</a>
+                            <a href="" class="mb-3 link-grey-yellow">NFT</a>
+                            <a href="" class="mb-3 link-grey-yellow">Binance Pay</a>
+                            <a href="" class="mb-3 link-grey-yellow">Binance Gift Card</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        <h5>Servicios</h5>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body py-0">
+                        <div class="col-6 col-md-4 col-xl-2 my-3 d-flex flex-column">
+                            <a href="" class="mb-3 link-grey-yellow">Descargar</a>
+                            <a href="" class="mb-3 link-grey-yellow">Aplicacion de escritorio</a>
+                            <a href="" class="mb-3 link-grey-yellow">Comprar Cripto</a>
+                            <a href="" class="mb-3 link-grey-yellow">Servicios institucionales y VIP</a>
+                            <a href="" class="mb-3 link-grey-yellow">Trading OTC</a>
+                            <a href="" class="mb-3 link-grey-yellow">Programa de referidos</a>
+                            <a href="" class="mb-3 link-grey-yellow">Programa de afiliados</a>
+                            <a href="" class="mb-3 link-grey-yellow">BNB</a>
+                            <a href="" class="mb-3 link-grey-yellow">Solicitud de listado</a>
+                            <a href="" class="mb-3 link-grey-yellow">Solicitud para comerciante P2P</a>
+                            <a href="" class="mb-3 link-grey-yellow">Solicitud para comerciante P2PPro</a>
+                            <a href="" class="mb-3 link-grey-yellow">Datos historicos del mercado</a>
+                            <a href="" class="mb-3 link-grey-yellow">Proof of Asset</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                        <h5>Soporte</h5>
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                      <div class="accordion-body py-0">
+                        <div class="col-6 col-md-4 col-xl-2 my-3 d-flex flex-column">
+                            <a href="" class="mb-3 link-grey-yellow">Danos tu opinion</a>
+                            <a href="" class="mb-3 link-grey-yellow">Centro de Soporte</a>
+                            <a href="" class="mb-3 link-grey-yellow">Enviar una solicitud</a>
+                            <a href="" class="mb-3 link-grey-yellow">Comisiones</a>
+                            <a href="" class="mb-3 link-grey-yellow">Reglas de Trading</a>
+                            <a href="" class="mb-3 link-grey-yellow">Verificacion de Binance</a>
+                            <a href="" class="mb-3 link-grey-yellow">Solicitudes de autoridades</a>
+                            <a href="" class="mb-3 link-grey-yellow">Binance Legal (Ordenes judiciales)</a>
+                            <a href="" class="mb-3 link-grey-yellow">Portal de airdrop de Binance</a>
+                            <a href="" class="mb-3 link-grey-yellow">The Merge de Ethereum</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                            <h5>Conocer mas</h5>
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                      <div class="accordion-body py-0">
+                        <div class="col-6 col-md-4 col-xl-2 my-3 d-flex flex-column">
+                            <a href="" class="mb-3 link-grey-yellow">Aprende y gana</a>
+                            <a href="" class="mb-3 link-grey-yellow">Explorar precios de criptomonedas</a>
+                            <a href="" class="mb-3 link-grey-yellow">Comprar BNB</a>
+                            <a href="" class="mb-3 link-grey-yellow">Comprar BUSD</a>
+                            <a href="" class="mb-3 link-grey-yellow">Comprar Bitcoin</a>
+                            <a href="" class="mb-3 link-grey-yellow">Comprar Ethereum</a>
+                            <a href="" class="mb-3 link-grey-yellow">Comprar Litecoin</a>
+                            <a href="" class="mb-3 link-grey-yellow">Comprar Ripple</a>
+                            <a href="" class="mb-3 link-grey-yellow">Comprar Bitcoin Cash</a>
+                            <a href="" class="mb-3 link-grey-yellow">Comprar Dogecoin</a>
+                            <a href="" class="mb-3 link-grey-yellow">Comprar DeFi</a>
+                            <a href="" class="mb-3 link-grey-yellow">Comprar SHIB</a>
+                            <a href="" class="mb-3 link-grey-yellow">Comprar altcoins para hacer trading</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                        <h5>Community</h5>
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                      <div class="accordion-body py-0">
+                        <div class="col-6 col-md-4 col-xl-2 my-3">
+                            <a href="" class="link-grey-yellow"><i class='bx bxl-discord-alt'></i></a>
+                            <a href="" class="link-grey-yellow"><i class='bx bxl-telegram'></i></a>
+                            <a href="" class="link-grey-yellow"><i class='bx bxl-tiktok'></i></a>
+                            <a href="" class="link-grey-yellow"><i class='bx bxl-facebook-circle'></i></a>
+                            <a href="" class="link-grey-yellow"><i class='bx bxl-twitter'></i></a>
+                            <a href="" class="link-grey-yellow"><i class='bx bxl-reddit'></i></a>
+                            <a href="" class="link-grey-yellow"><i class='bx bxl-instagram'></i></a>
+                            <a href="" class="link-grey-yellow"><i class='bx bxl-mastodon'></i></a>
+                            <a href="" class="link-grey-yellow"><i class='bx bxl-vk'></i></a>
+                            <a href="" class="link-grey-yellow"><i class='bx bxl-youtube'></i></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../functions/login.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+</body>
+</html>

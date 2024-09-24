@@ -1,0 +1,60 @@
+.item-detail{
+    background-color: rgb(24, 26, 32);
+}
+.item-detail .row{
+    min-height: 50px;
+}
+.item-detail .row div{
+    min-height: 50px;
+}
+.item-detail .row .col-lg-4{
+    border-right: 1px solid white;
+}
+.item-detail .col-12{
+    color: #F0B90B;
+    background-color:  #373a3e;
+}
+.item-detail .col-12 span{
+    color: #F0B90B;
+}
+.item-detail p{
+    font-size: 13px;
+}
+.item-detail h4{
+    font-size: 13px;
+    color: #F0B90B;
+}
+.item-detail h5{
+    color: #0bffa2;
+}
+.metodos-pago img{
+    width: 50px;
+}
+.resumen{
+    background-color: rgba(0, 0, 0, 0.509);
+}
+.resumen label{
+    font-size: 13px;
+}
+.section-cart  .table-cart{
+    overflow: auto;
+}
+.additional{
+    background-color: #373a3e;
+}
+.additional .d-flex{
+    border-bottom: 1px solid rgb(71, 77, 87);
+}
+.additional h2{
+    font-size: 20px;
+}
+.additional p{
+    font-size: 13px;
+}
+.additional .dropdown-menu{
+    min-width: 320px;
+    max-width: 100%;
+}
+.additional .dropdown-menu .link-grey-yellow{
+    font-size: 13px;
+}

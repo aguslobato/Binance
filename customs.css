@@ -1,0 +1,237 @@
+/* LINKS */
+.link-yellow{
+    background-color: #FCD535;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+}
+.link-yellow:hover{
+    background-color: #ebc631;
+    color: black;
+}
+.link-grey-yellow{
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.link-grey-yellow:hover{
+    color: #ebc631;
+}
+.link-yellow-white{
+    text-decoration: none;
+    color: #ebc631;
+}
+.link-yellow-white:hover{
+    color: #fff;
+}
+.link-light-grey{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #474D57;
+}
+.link-light-grey:hover{
+    background-color: #3f434a;
+    color: #fff;
+}
+body{
+    background-color: rgb(11, 14, 17);;
+    color: #fff;
+}
+.navbar{
+    background-color: rgb(24, 26, 32);
+}
+.navbar-brand img{
+    width: 30px;
+    height: 30px;
+}
+.navbar-brand{
+    color: #ebc631;
+}
+.navbar-brand:hover{
+    color: #ebc631;
+}
+.navbar .link-yellow{
+    font-size: 13px;
+}
+.navbar .nav-link{
+    margin: 0 8px;
+    color: #fff;
+    font-size: 14px;
+}
+.navbar .nav-link:hover{
+    color: #ebc631;
+}
+.dropdown-menu{
+    background-color: rgb(24, 26, 32);
+    min-width: 300px;
+}
+.cart i{
+    font-size: 20px;
+}
+.menu-doble{
+    min-width: 1000px;
+    transform: translate3d(-500px, 0px, 0px);
+}
+.menu-triple{
+    min-width: 1000px;
+}
+.menu-triple span{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-nav h6{
+    font-size: 15px;
+    color: #fff;
+}
+.content-nav img{
+    width: 30px;
+    height: 30px;
+}
+.content-nav span{
+    color: rgb(183, 189, 198);
+    font-size: 13px;
+}
+.dropdown-item:hover{
+    background-color: rgba(255, 255, 255, 0.093);
+}
+.header-bottom{
+    background-color: rgb(60, 38, 1);
+    font-size: 14px;
+    color: rgb(183, 189, 198);
+}
+.introduction-home .form-control{
+    background-color: transparent;
+    border: 1px solid #FCD535;
+}
+.introduction-home .form-control:focus{
+    box-shadow: none;
+}
+.introduction-home h1{
+    font-size: 55px;
+}
+.introduction-home h3{
+    font-size: 20px;
+}
+.introduction-home p{
+    font-size: 14px;
+}
+
+.cryptos, .wallet, .nft, .trusted, footer{
+    background-color: rgb(24, 26, 32);
+}
+.cryptos th{
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+}
+.table > :not(caption) > * > *{
+    border-style: none !important;
+}
+.cryptos td{
+    color: #fff;
+    font-size: 13px;
+}
+.cryptos tr:hover{
+    background-color: rgba(102, 102, 102, 0.133);
+}
+.cryptos tr:hover td{
+    color: #fff;
+}
+.cryptos td code{
+    color: rgb(26, 171, 26);
+    font-size: 13px;
+}
+.cryptos th img{
+    width: 25px;
+    height: 25px;
+}
+.cryptos h3{
+    font-size: 20px;
+}
+.cryptos h4{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+.cryptos span{
+    font-size: 14px;
+    font-weight: 100;
+    color: gray;
+}
+
+.wallet .card{
+    background-color: transparent;
+}
+.wallet .col-md-2 img{
+    width: 60px;
+}
+.wallet h4{
+    font-size: 18px;
+}
+.wallet span{
+    color: rgb(183, 189, 198);
+    font-size: 14px;
+    font-weight: 400;
+}
+.big-phone img{
+    width: auto;
+    height: 700px;
+}
+
+.card-dark{
+    background-color: #0B0E11;
+    min-height: 500px;
+}
+
+.scan-code{
+    background-color: #02020297;
+}
+.scan-code img{
+    width: 70px;
+}
+.download{
+    max-width: 80%;
+    max-height: 300px;
+}
+.card-transparent{
+    background-color: transparent;
+}
+.card-transparent span i{
+    font-size: 30px;
+}
+.card-transparent h5{
+    font-size: 14px;
+}
+.card-transparent:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.066);
+}
+
+footer h5{
+    font-size: 16px;
+    color: #fff;
+}
+footer a i{
+    font-size: 20px;
+    margin: 8px;
+}
+footer .link-grey-yellow{
+    font-size: 13px;
+    font-weight: 400;
+}
+footer .accordion-item, .accordion-body, .accordion-button{
+    background-color: transparent;
+    border: none;
+}
+.accordion-button:not(.collapsed){
+    background-color: transparent;
+    box-shadow: transparent;
+}
+.accordion-button:focus{
+    border: none;
+    box-shadow: none;
+}
+.accordion-button::after{   
+    filter: grayscale(1);
+}
